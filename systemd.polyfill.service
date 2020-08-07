@@ -1,0 +1,20 @@
+[Unit]
+Description=Polyfill Server
+
+[Service]
+ExecStart=/var/www/ployfill-service/start_server.sh server/index.js
+# Required on some systems
+WorkingDirectory=/usr/local/var/lib/polyfill-service/
+Restart=always
+# Restart service after 10 seconds if node service crashes
+RestartSec=10
+# Output to syslog
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=polyfill
+User=ubuntu
+Group=ubuntu
+Environment=NODE_ENV=production PORT=8130
+
+[Install]
+WantedBy=multi-user.target
