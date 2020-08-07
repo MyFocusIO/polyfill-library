@@ -2,7 +2,8 @@ aliases = ["caniuse:custom-elementsv1"]
 dependencies = ["Map", "Set", "Element"]
 
 repo = "https://github.com/webcomponents/custom-elements"
-license = "BSD"
+# license = "BSD"
+license = "MIT"
 docs = "https://developers.google.com/web/fundamentals/getting-started/primers/customelements"
 spec = "https://w3c.github.io/webcomponents/spec/custom/"
 

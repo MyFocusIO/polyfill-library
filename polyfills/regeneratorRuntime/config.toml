@@ -2,7 +2,8 @@ aliases = []
 dependencies = []
 
 repo = "https://github.com/MyFocusIO/polyfill-library"
-license = "BSD"
+# license = "BSD"
+license = "MIT"
 docs = "https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime"
 
 [browsers]
