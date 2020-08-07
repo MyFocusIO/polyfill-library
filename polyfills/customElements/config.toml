@@ -1,0 +1,29 @@
+aliases = ["caniuse:custom-elementsv1"]
+dependencies = ["Map", "Set", "Element"]
+
+repo = "https://github.com/webcomponents/custom-elements"
+license = "BSD"
+docs = "https://developers.google.com/web/fundamentals/getting-started/primers/customelements"
+spec = "https://w3c.github.io/webcomponents/spec/custom/"
+
+[build]
+minify = "false"
+
+[browsers]
+ie = "*"
+edge = "<79"
+safari = "<10.1"
+firefox = "*"
+chrome = "<58"
+android = "<61"
+and_chr = "<63"
+and_ff = "<56"
+firefox_mob = "*"
+ie_mob = "*"
+opera = "<45"
+op_mob = "*"
+op_mini = "*"
+ios_saf = "<10.3"
+bb = "10 - *"
+samsung_mob = "*"
+samsung = "<6.1"

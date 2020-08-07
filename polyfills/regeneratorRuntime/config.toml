@@ -1,0 +1,25 @@
+aliases = []
+dependencies = []
+
+repo = "https://github.com/MyFocusIO/polyfill-library"
+license = "BSD"
+docs = "https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime"
+
+[browsers]
+ie = "*"
+edge = "<14"
+safari = "<10.1"
+firefox = "<51"
+chrome = "<54"
+android = "<61"
+and_chr = "<63"
+and_ff = "<56"
+firefox_mob = "*"
+ie_mob = "*"
+opera = "<42"
+op_mob = "*"
+op_mini = "*"
+ios_saf = "<10.2"
+bb = "10 - *"
+samsung_mob = "<6.1"
+samsung = "<6.1"
